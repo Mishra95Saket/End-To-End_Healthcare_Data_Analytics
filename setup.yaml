@@ -1,0 +1,13 @@
+
+---
+
+## ⚙️ config/pipeline.yaml
+
+```yaml
+data:
+  raw_path: data/raw/claims_raw.csv
+  processed_path: data/processed/
+
+parameters:
+  high_cost_threshold: 20000
+  high_utilization_claims: 5
